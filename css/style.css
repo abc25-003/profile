@@ -11,6 +11,7 @@ header#siteheader{
   background-image:linear-gradient(greenyellow,cyan,teal);
     border:1px solid dark grey;
   border-radius:10px 10px 0 0;
+  padding-left:20px;
 }
   
 /*styling site title */
@@ -18,4 +19,30 @@ header#siteheader{
     font-family:Arial;
     font-size:32px;
     color:orange;
+    text-align:center;
 }
+
+/*site motto */
+span#sitemotto{
+  font-size:18px;
+  font-family:tahoma;
+  font-style:italic;
+  color:aqua;
+  text-align:center;
+}
+
+/*site navigation */
+nav#sitenav{
+  width:100%;
+  height30:30px
+  background-image:radial-gradient(greenyellow,cyan);
+}
+/*navigation elements */
+ul#ulnav>li{
+  display:inline;
+  list-style-type:none;
+}
+  
+
+
+  
